@@ -61,3 +61,38 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* small screen */
+@media (max-width: 780px) {
+  .container {
+    max-width: 550px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    margin: 6%;
+    width: 90%;
+  }
+  .container h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .display {
+    justify-content: center;
+    padding: 20px 15px;
+  }
+  .display img {
+    width: 25px;
+  }
+  .display input {
+    font-size: 22px;
+  }
+  .container button img {
+    width: 25px;
+  }
+  .container button {
+    font-size: 21px;
+    padding: 15px 25px;
+  }
+}
